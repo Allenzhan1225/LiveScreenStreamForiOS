@@ -1,0 +1,19 @@
+PODS:
+  - LFLiveKit (2.5)
+
+DEPENDENCIES:
+  - LFLiveKit (from `https://github.com/LaiFengiOS/LFLiveKit.git`)
+
+EXTERNAL SOURCES:
+  LFLiveKit:
+    :git: https://github.com/LaiFengiOS/LFLiveKit.git
+
+CHECKOUT OPTIONS:
+  LFLiveKit:
+    :commit: f6feec3090bd8154e0ad21036812b6d89ec41adb
+    :git: https://github.com/LaiFengiOS/LFLiveKit.git
+
+SPEC CHECKSUMS:
+  LFLiveKit: 4361bd588ae0c9244589119ccdb1c30d14686414
+
+COCOAPODS: 0.39.0

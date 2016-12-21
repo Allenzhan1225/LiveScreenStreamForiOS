@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E13A22421E06C6640015DF08 /* libXDWScreenRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E13A22401E06C6640015DF08 /* libXDWScreenRecorder.a */; };
+		E168AD7C1E064640006EAF60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD7B1E064640006EAF60 /* main.m */; };
+		E168AD7F1E064641006EAF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD7E1E064641006EAF60 /* AppDelegate.m */; };
+		E168AD821E064641006EAF60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD811E064641006EAF60 /* ViewController.m */; };
+		E168AD851E064641006EAF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E168AD831E064641006EAF60 /* Main.storyboard */; };
+		E168AD881E064641006EAF60 /* XDWRTMPSender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E168AD861E064641006EAF60 /* XDWRTMPSender.xcdatamodeld */; };
+		E168AD8A1E064642006EAF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E168AD891E064642006EAF60 /* Assets.xcassets */; };
+		E168AD8D1E064642006EAF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E168AD8B1E064642006EAF60 /* LaunchScreen.storyboard */; };
+		E168AD981E064643006EAF60 /* XDWRTMPSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD971E064643006EAF60 /* XDWRTMPSenderTests.m */; };
+		E168ADA31E064643006EAF60 /* XDWRTMPSenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168ADA21E064643006EAF60 /* XDWRTMPSenderUITests.m */; };
+		E18DEA9B1E077BED000B8176 /* libairplaysdk-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18DEA991E077BED000B8176 /* libairplaysdk-1.a */; };
+		E18DEA9C1E077BED000B8176 /* libairplaysdk-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18DEA9A1E077BED000B8176 /* libairplaysdk-2.a */; };
+		E1C6EFC81E06C94D0045FB3F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6EFC71E06C94D0045FB3F /* MediaPlayer.framework */; };
+		F11B90E2C546C04966303C85 /* libPods-XDWRTMPSender.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE67285E623021E9FE7ABF /* libPods-XDWRTMPSender.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E168AD941E064643006EAF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E168AD6F1E064640006EAF60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E168AD761E064640006EAF60;
+			remoteInfo = XDWRTMPSender;
+		};
+		E168AD9F1E064643006EAF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E168AD6F1E064640006EAF60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E168AD761E064640006EAF60;
+			remoteInfo = XDWRTMPSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BE67285E623021E9FE7ABF /* libPods-XDWRTMPSender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XDWRTMPSender.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A665EB1CC2D540B7B53B4EFF /* Pods-XDWRTMPSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDWRTMPSender.release.xcconfig"; path = "Pods/Target Support Files/Pods-XDWRTMPSender/Pods-XDWRTMPSender.release.xcconfig"; sourceTree = "<group>"; };
+		E13A22401E06C6640015DF08 /* libXDWScreenRecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXDWScreenRecorder.a; path = XDWRTMPSender/fat/lib/libXDWScreenRecorder.a; sourceTree = "<group>"; };
+		E168AD771E064640006EAF60 /* XDWRTMPSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDWRTMPSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168AD7B1E064640006EAF60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E168AD7D1E064640006EAF60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E168AD7E1E064641006EAF60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E168AD801E064641006EAF60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E168AD811E064641006EAF60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E168AD841E064641006EAF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E168AD871E064641006EAF60 /* XDWRTMPSender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XDWRTMPSender.xcdatamodel; sourceTree = "<group>"; };
+		E168AD891E064642006EAF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E168AD8C1E064642006EAF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E168AD8E1E064642006EAF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E168AD931E064643006EAF60 /* XDWRTMPSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDWRTMPSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168AD971E064643006EAF60 /* XDWRTMPSenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDWRTMPSenderTests.m; sourceTree = "<group>"; };
+		E168AD991E064643006EAF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E168AD9E1E064643006EAF60 /* XDWRTMPSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDWRTMPSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168ADA21E064643006EAF60 /* XDWRTMPSenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDWRTMPSenderUITests.m; sourceTree = "<group>"; };
+		E168ADA41E064643006EAF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18DEA991E077BED000B8176 /* libairplaysdk-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libairplaysdk-1.a"; path = "XDWRTMPSender/fat/lib/libairplaysdk-1.a"; sourceTree = "<group>"; };
+		E18DEA9A1E077BED000B8176 /* libairplaysdk-2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libairplaysdk-2.a"; path = "XDWRTMPSender/fat/lib/libairplaysdk-2.a"; sourceTree = "<group>"; };
+		E1C6EFC71E06C94D0045FB3F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EF86D419936A9A300F435AE0 /* Pods-XDWRTMPSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDWRTMPSender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XDWRTMPSender/Pods-XDWRTMPSender.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E168AD741E064640006EAF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6EFC81E06C94D0045FB3F /* MediaPlayer.framework in Frameworks */,
+				E18DEA9C1E077BED000B8176 /* libairplaysdk-2.a in Frameworks */,
+				F11B90E2C546C04966303C85 /* libPods-XDWRTMPSender.a in Frameworks */,
+				E18DEA9B1E077BED000B8176 /* libairplaysdk-1.a in Frameworks */,
+				E13A22421E06C6640015DF08 /* libXDWScreenRecorder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168AD901E064643006EAF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168AD9B1E064643006EAF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7E20C3A018D96113F3503E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF86D419936A9A300F435AE0 /* Pods-XDWRTMPSender.debug.xcconfig */,
+				A665EB1CC2D540B7B53B4EFF /* Pods-XDWRTMPSender.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E168AD6E1E064640006EAF60 = {
+			isa = PBXGroup;
+			children = (
+				E18DEA991E077BED000B8176 /* libairplaysdk-1.a */,
+				E18DEA9A1E077BED000B8176 /* libairplaysdk-2.a */,
+				E13A22401E06C6640015DF08 /* libXDWScreenRecorder.a */,
+				E168AD791E064640006EAF60 /* XDWRTMPSender */,
+				E168AD961E064643006EAF60 /* XDWRTMPSenderTests */,
+				E168ADA11E064643006EAF60 /* XDWRTMPSenderUITests */,
+				E168AD781E064640006EAF60 /* Products */,
+				CC7E20C3A018D96113F3503E /* Pods */,
+				E9874746ED80514E9E107E0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E168AD781E064640006EAF60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E168AD771E064640006EAF60 /* XDWRTMPSender.app */,
+				E168AD931E064643006EAF60 /* XDWRTMPSenderTests.xctest */,
+				E168AD9E1E064643006EAF60 /* XDWRTMPSenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E168AD791E064640006EAF60 /* XDWRTMPSender */ = {
+			isa = PBXGroup;
+			children = (
+				E168AD7D1E064640006EAF60 /* AppDelegate.h */,
+				E168AD7E1E064641006EAF60 /* AppDelegate.m */,
+				E168AD801E064641006EAF60 /* ViewController.h */,
+				E168AD811E064641006EAF60 /* ViewController.m */,
+				E168AD831E064641006EAF60 /* Main.storyboard */,
+				E168AD891E064642006EAF60 /* Assets.xcassets */,
+				E168AD8B1E064642006EAF60 /* LaunchScreen.storyboard */,
+				E168AD8E1E064642006EAF60 /* Info.plist */,
+				E168AD861E064641006EAF60 /* XDWRTMPSender.xcdatamodeld */,
+				E168AD7A1E064640006EAF60 /* Supporting Files */,
+			);
+			path = XDWRTMPSender;
+			sourceTree = "<group>";
+		};
+		E168AD7A1E064640006EAF60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E168AD7B1E064640006EAF60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E168AD961E064643006EAF60 /* XDWRTMPSenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E168AD971E064643006EAF60 /* XDWRTMPSenderTests.m */,
+				E168AD991E064643006EAF60 /* Info.plist */,
+			);
+			path = XDWRTMPSenderTests;
+			sourceTree = "<group>";
+		};
+		E168ADA11E064643006EAF60 /* XDWRTMPSenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E168ADA21E064643006EAF60 /* XDWRTMPSenderUITests.m */,
+				E168ADA41E064643006EAF60 /* Info.plist */,
+			);
+			path = XDWRTMPSenderUITests;
+			sourceTree = "<group>";
+		};
+		E9874746ED80514E9E107E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6EFC71E06C94D0045FB3F /* MediaPlayer.framework */,
+				18BE67285E623021E9FE7ABF /* libPods-XDWRTMPSender.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E168AD761E064640006EAF60 /* XDWRTMPSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E168ADA71E064643006EAF60 /* Build configuration list for PBXNativeTarget "XDWRTMPSender" */;
+			buildPhases = (
+				50F4654337C77E38BE9A94B0 /* Check Pods Manifest.lock */,
+				E168AD731E064640006EAF60 /* Sources */,
+				E168AD741E064640006EAF60 /* Frameworks */,
+				E168AD751E064640006EAF60 /* Resources */,
+				D46BE7A4F931A37EC2F33B5B /* Embed Pods Frameworks */,
+				ADCF52B52BEEEE53A2BB64A2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDWRTMPSender;
+			productName = XDWRTMPSender;
+			productReference = E168AD771E064640006EAF60 /* XDWRTMPSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E168AD921E064643006EAF60 /* XDWRTMPSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E168ADAA1E064643006EAF60 /* Build configuration list for PBXNativeTarget "XDWRTMPSenderTests" */;
+			buildPhases = (
+				E168AD8F1E064643006EAF60 /* Sources */,
+				E168AD901E064643006EAF60 /* Frameworks */,
+				E168AD911E064643006EAF60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E168AD951E064643006EAF60 /* PBXTargetDependency */,
+			);
+			name = XDWRTMPSenderTests;
+			productName = XDWRTMPSenderTests;
+			productReference = E168AD931E064643006EAF60 /* XDWRTMPSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E168AD9D1E064643006EAF60 /* XDWRTMPSenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E168ADAD1E064643006EAF60 /* Build configuration list for PBXNativeTarget "XDWRTMPSenderUITests" */;
+			buildPhases = (
+				E168AD9A1E064643006EAF60 /* Sources */,
+				E168AD9B1E064643006EAF60 /* Frameworks */,
+				E168AD9C1E064643006EAF60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E168ADA01E064643006EAF60 /* PBXTargetDependency */,
+			);
+			name = XDWRTMPSenderUITests;
+			productName = XDWRTMPSenderUITests;
+			productReference = E168AD9E1E064643006EAF60 /* XDWRTMPSenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E168AD6F1E064640006EAF60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xindawn;
+				TargetAttributes = {
+					E168AD761E064640006EAF60 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8SQ4MQG83P;
+						ProvisioningStyle = Automatic;
+					};
+					E168AD921E064643006EAF60 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8SQ4MQG83P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E168AD761E064640006EAF60;
+					};
+					E168AD9D1E064643006EAF60 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8SQ4MQG83P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E168AD761E064640006EAF60;
+					};
+				};
+			};
+			buildConfigurationList = E168AD721E064640006EAF60 /* Build configuration list for PBXProject "XDWRTMPSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E168AD6E1E064640006EAF60;
+			productRefGroup = E168AD781E064640006EAF60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E168AD761E064640006EAF60 /* XDWRTMPSender */,
+				E168AD921E064643006EAF60 /* XDWRTMPSenderTests */,
+				E168AD9D1E064643006EAF60 /* XDWRTMPSenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E168AD751E064640006EAF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168AD8D1E064642006EAF60 /* LaunchScreen.storyboard in Resources */,
+				E168AD8A1E064642006EAF60 /* Assets.xcassets in Resources */,
+				E168AD851E064641006EAF60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168AD911E064643006EAF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168AD9C1E064643006EAF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F4654337C77E38BE9A94B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCF52B52BEEEE53A2BB64A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XDWRTMPSender/Pods-XDWRTMPSender-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46BE7A4F931A37EC2F33B5B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XDWRTMPSender/Pods-XDWRTMPSender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E168AD731E064640006EAF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168AD821E064641006EAF60 /* ViewController.m in Sources */,
+				E168AD881E064641006EAF60 /* XDWRTMPSender.xcdatamodeld in Sources */,
+				E168AD7F1E064641006EAF60 /* AppDelegate.m in Sources */,
+				E168AD7C1E064640006EAF60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168AD8F1E064643006EAF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168AD981E064643006EAF60 /* XDWRTMPSenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168AD9A1E064643006EAF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168ADA31E064643006EAF60 /* XDWRTMPSenderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E168AD951E064643006EAF60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E168AD761E064640006EAF60 /* XDWRTMPSender */;
+			targetProxy = E168AD941E064643006EAF60 /* PBXContainerItemProxy */;
+		};
+		E168ADA01E064643006EAF60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E168AD761E064640006EAF60 /* XDWRTMPSender */;
+			targetProxy = E168AD9F1E064643006EAF60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E168AD831E064641006EAF60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E168AD841E064641006EAF60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E168AD8B1E064642006EAF60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E168AD8C1E064642006EAF60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E168ADA51E064643006EAF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E168ADA61E064643006EAF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E168ADA81E064643006EAF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF86D419936A9A300F435AE0 /* Pods-XDWRTMPSender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SQ4MQG83P;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/LFLiveKit\"",
+					"\"$(PROJECT_DIR)/XDWRTMPSender/fat/include\"",
+				);
+				INFOPLIST_FILE = XDWRTMPSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XDWRTMPSender/fat/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xindawn.com.XDWRTMPSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E168ADA91E064643006EAF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A665EB1CC2D540B7B53B4EFF /* Pods-XDWRTMPSender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SQ4MQG83P;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/LFLiveKit\"",
+					"\"$(PROJECT_DIR)/XDWRTMPSender/fat/include\"",
+				);
+				INFOPLIST_FILE = XDWRTMPSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XDWRTMPSender/fat/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xindawn.com.XDWRTMPSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E168ADAB1E064643006EAF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8SQ4MQG83P;
+				INFOPLIST_FILE = XDWRTMPSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xindawn.com.XDWRTMPSenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDWRTMPSender.app/XDWRTMPSender";
+			};
+			name = Debug;
+		};
+		E168ADAC1E064643006EAF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8SQ4MQG83P;
+				INFOPLIST_FILE = XDWRTMPSenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xindawn.com.XDWRTMPSenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDWRTMPSender.app/XDWRTMPSender";
+			};
+			name = Release;
+		};
+		E168ADAE1E064643006EAF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8SQ4MQG83P;
+				INFOPLIST_FILE = XDWRTMPSenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xindawn.com.XDWRTMPSenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDWRTMPSender;
+			};
+			name = Debug;
+		};
+		E168ADAF1E064643006EAF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8SQ4MQG83P;
+				INFOPLIST_FILE = XDWRTMPSenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xindawn.com.XDWRTMPSenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDWRTMPSender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E168AD721E064640006EAF60 /* Build configuration list for PBXProject "XDWRTMPSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168ADA51E064643006EAF60 /* Debug */,
+				E168ADA61E064643006EAF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E168ADA71E064643006EAF60 /* Build configuration list for PBXNativeTarget "XDWRTMPSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168ADA81E064643006EAF60 /* Debug */,
+				E168ADA91E064643006EAF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E168ADAA1E064643006EAF60 /* Build configuration list for PBXNativeTarget "XDWRTMPSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168ADAB1E064643006EAF60 /* Debug */,
+				E168ADAC1E064643006EAF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E168ADAD1E064643006EAF60 /* Build configuration list for PBXNativeTarget "XDWRTMPSenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168ADAE1E064643006EAF60 /* Debug */,
+				E168ADAF1E064643006EAF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E168AD861E064641006EAF60 /* XDWRTMPSender.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E168AD871E064641006EAF60 /* XDWRTMPSender.xcdatamodel */,
+			);
+			currentVersion = E168AD871E064641006EAF60 /* XDWRTMPSender.xcdatamodel */;
+			path = XDWRTMPSender.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E168AD6F1E064640006EAF60 /* Project object */;
+}

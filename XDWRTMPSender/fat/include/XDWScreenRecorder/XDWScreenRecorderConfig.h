@@ -22,6 +22,6 @@
 @property(nonatomic, assign) int airVideoPort;
 /// 激活码，免费激活码为”000000000”(9个0),个人用途免费使用
 @property(nonatomic, assign) char *activeCode;
-/// 默认总是竖屏，是否旋转到横屏
-@property(nonatomic, assign) BOOL autoRotate;
+/// 默认总是竖屏，是否旋转到横屏(0,90,270)
+@property(nonatomic, assign) int autoRotate;
 @end

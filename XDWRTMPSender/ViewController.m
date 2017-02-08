@@ -28,7 +28,7 @@
         screenRecorderConfig.airVideoPort = 8101;
         screenRecorderConfig.activeCode = "000000000";
         screenRecorderConfig.airPlayName = "XBMC-GAMEBOX(XinDawn)";
-        screenRecorderConfig.autoRotate = NO;
+        screenRecorderConfig.autoRotate = 0;
         
         _screenRecorder = [[XDWScreenRecorder alloc] initWithConfig:screenRecorderConfig];
         _screenRecorder.delegate = self;
@@ -49,7 +49,7 @@
         videoConfiguration.sessionPreset = LFCaptureSessionPreset720x1280;
         
         _liveStreamInfo = [[LFLiveStreamInfo alloc] init];
-        _liveStreamInfo.url = @"rtmp://send3.douyu.com/live/1492366rjexxZH5k?wsSecret=6cf939520939438ecb250682329f0518&wsTime=585a5385";
+        _liveStreamInfo.url = @"rtmp://pili-publish.pilitest.qiniucdn.com/pilitest/test_for_pili?key=6eeee8a82246636e";
         _liveStreamInfo.videoConfiguration = videoConfiguration;
         _liveStreamInfo.audioConfiguration = [LFLiveAudioConfiguration defaultConfiguration];
         

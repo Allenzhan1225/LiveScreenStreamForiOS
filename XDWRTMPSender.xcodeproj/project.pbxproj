@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1CC8FC20823B1D005A870B /* libxindawnsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1CC8FB20823B1D005A870B /* libxindawnsdk.a */; };
 		E13A22421E06C6640015DF08 /* libXDWScreenRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E13A22401E06C6640015DF08 /* libXDWScreenRecorder.a */; };
 		E168AD7C1E064640006EAF60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD7B1E064640006EAF60 /* main.m */; };
 		E168AD7F1E064641006EAF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD7E1E064641006EAF60 /* AppDelegate.m */; };
@@ -17,8 +18,6 @@
 		E168AD8D1E064642006EAF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E168AD8B1E064642006EAF60 /* LaunchScreen.storyboard */; };
 		E168AD981E064643006EAF60 /* XDWRTMPSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168AD971E064643006EAF60 /* XDWRTMPSenderTests.m */; };
 		E168ADA31E064643006EAF60 /* XDWRTMPSenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168ADA21E064643006EAF60 /* XDWRTMPSenderUITests.m */; };
-		E18DEA9B1E077BED000B8176 /* libairplaysdk-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18DEA991E077BED000B8176 /* libairplaysdk-1.a */; };
-		E18DEA9C1E077BED000B8176 /* libairplaysdk-2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18DEA9A1E077BED000B8176 /* libairplaysdk-2.a */; };
 		E1C6EFC81E06C94D0045FB3F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6EFC71E06C94D0045FB3F /* MediaPlayer.framework */; };
 		F11B90E2C546C04966303C85 /* libPods-XDWRTMPSender.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE67285E623021E9FE7ABF /* libPods-XDWRTMPSender.a */; };
 /* End PBXBuildFile section */
@@ -43,6 +42,7 @@
 /* Begin PBXFileReference section */
 		18BE67285E623021E9FE7ABF /* libPods-XDWRTMPSender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XDWRTMPSender.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A665EB1CC2D540B7B53B4EFF /* Pods-XDWRTMPSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDWRTMPSender.release.xcconfig"; path = "Pods/Target Support Files/Pods-XDWRTMPSender/Pods-XDWRTMPSender.release.xcconfig"; sourceTree = "<group>"; };
+		BA1CC8FB20823B1D005A870B /* libxindawnsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxindawnsdk.a; path = XDWRTMPSender/fat/lib/libxindawnsdk.a; sourceTree = "<group>"; };
 		E13A22401E06C6640015DF08 /* libXDWScreenRecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXDWScreenRecorder.a; path = XDWRTMPSender/fat/lib/libXDWScreenRecorder.a; sourceTree = "<group>"; };
 		E168AD771E064640006EAF60 /* XDWRTMPSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDWRTMPSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E168AD7B1E064640006EAF60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,8 +61,6 @@
 		E168AD9E1E064643006EAF60 /* XDWRTMPSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDWRTMPSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E168ADA21E064643006EAF60 /* XDWRTMPSenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDWRTMPSenderUITests.m; sourceTree = "<group>"; };
 		E168ADA41E064643006EAF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E18DEA991E077BED000B8176 /* libairplaysdk-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libairplaysdk-1.a"; path = "XDWRTMPSender/fat/lib/libairplaysdk-1.a"; sourceTree = "<group>"; };
-		E18DEA9A1E077BED000B8176 /* libairplaysdk-2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libairplaysdk-2.a"; path = "XDWRTMPSender/fat/lib/libairplaysdk-2.a"; sourceTree = "<group>"; };
 		E1C6EFC71E06C94D0045FB3F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		EF86D419936A9A300F435AE0 /* Pods-XDWRTMPSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDWRTMPSender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XDWRTMPSender/Pods-XDWRTMPSender.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,10 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1CC8FC20823B1D005A870B /* libxindawnsdk.a in Frameworks */,
 				E1C6EFC81E06C94D0045FB3F /* MediaPlayer.framework in Frameworks */,
-				E18DEA9C1E077BED000B8176 /* libairplaysdk-2.a in Frameworks */,
 				F11B90E2C546C04966303C85 /* libPods-XDWRTMPSender.a in Frameworks */,
-				E18DEA9B1E077BED000B8176 /* libairplaysdk-1.a in Frameworks */,
 				E13A22421E06C6640015DF08 /* libXDWScreenRecorder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,8 +106,7 @@
 		E168AD6E1E064640006EAF60 = {
 			isa = PBXGroup;
 			children = (
-				E18DEA991E077BED000B8176 /* libairplaysdk-1.a */,
-				E18DEA9A1E077BED000B8176 /* libairplaysdk-2.a */,
+				BA1CC8FB20823B1D005A870B /* libxindawnsdk.a */,
 				E13A22401E06C6640015DF08 /* libXDWScreenRecorder.a */,
 				E168AD791E064640006EAF60 /* XDWRTMPSender */,
 				E168AD961E064643006EAF60 /* XDWRTMPSenderTests */,
